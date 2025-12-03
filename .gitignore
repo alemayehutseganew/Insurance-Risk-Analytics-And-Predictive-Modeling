@@ -17,7 +17,8 @@ env/
 .ipynb_checkpoints
 
 # DVC
-.dvc/
+.dvc/cache/
+.dvc/tmp/
 data/
 data_storage/
 
