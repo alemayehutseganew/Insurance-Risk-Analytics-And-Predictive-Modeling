@@ -45,9 +45,3 @@ Project workflow suggestions
 - Commit frequently with descriptive messages.
 - Use DVC to version all large data files and intermediate artifacts.
 
-Deliverables
-- Interim (07 Dec 2025): merged work for Task-1 and Task-2, EDA findings, DVC setup.
-- Final (09 Dec 2025): polished report (Medium-style blog post), code and notebooks.
-
-Contact / Team
-- Facilitators: Kerod, Mahbubah, Filimon
