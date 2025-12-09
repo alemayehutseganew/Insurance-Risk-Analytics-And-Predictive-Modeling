@@ -1,0 +1,11 @@
+Hypothesis,Test,P-Value,Decision,Business Insight
+Province vs Frequency,Chi-Squared,5.925510718204678e-19,Reject H0,Provincial claim rates differ; consider province-specific pricing or underwriting rules.
+Province vs Severity,ANOVA,6.304916760425176e-06,Reject H0,"Claim payouts vary by province, suggesting differentiated reserve assumptions."
+Zip vs Frequency,Chi-Squared,3.152172246339057e-30,Reject H0,Micro-geography signals distinct risk; refine rating factors at postal-code level.
+Zip vs Severity,ANOVA,1.3846079972976506e-05,Reject H0,Loss costs differ across zip codes; allocate claims investigators and reserves accordingly.
+Zip vs Margin,ANOVA,0.9701673296142395,Fail to Reject H0,Margins are statistically similar; no immediate pricing change needed on margin signal alone.
+Gender vs Frequency,Chi-Squared,0.9514644755420456,Fail to Reject H0,Claim frequency is comparable across genders; maintain gender-neutral frequency assumptions.
+Gender vs Severity,Welch T-Test,0.5680286951630678,Fail to Reject H0,Average claim payouts do not differ materially by gender.
+High vs Low Province Frequency,Two-Proportion Z,6.217986069715075e-05,Reject H0,High-risk provinces (Gauteng + KZN) have materially higher claim odds than low-risk regions.
+High vs Low Province Severity,Welch T-Test,0.9262632596446614,Fail to Reject H0,Severity differences between control/test provinces are limited; pricing levers should focus on frequency.
+High vs Low Province Margin,Welch T-Test,0.0045912888343724815,Reject H0,"Margins deteriorate in high-risk provinces, supporting targeted underwriting interventions."
